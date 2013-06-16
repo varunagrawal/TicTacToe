@@ -1,6 +1,8 @@
 /*
 Tic Tac Toe Playing Bot
 Techniques based on a paper.
+Input is 'x y' where 1 <= input <= 3
+
 Here the bot plays first.
 
 Author: Varun Agrawal

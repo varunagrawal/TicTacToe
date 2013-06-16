@@ -1,3 +1,19 @@
+/*
+TicTacToe playing Bot.
+Techniques based on a paper.
+
+Input is a number from 0-8.
+
+Grid is of the layout:
+0 1 2
+3 4 5
+6 7 8
+
+Author: Varun Agrawal
+
+*/
+
+
 #include<iostream>
 #include<cstdio>
 #include<string>
