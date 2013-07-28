@@ -9,30 +9,6 @@ Author: Varun Agrawal
 
 #include "Tic_Tac_Toe.hpp"
 
-int won(int symbol){
-	int win = 0;
-	
-	for(int i=0;i<8;i++){
-		win = 0;
-		
-		for(int j=0;j<3;j++){
-			int x = trackCells[i][j];
-			
-			if(board[x/3][x%3] == symbol){
-				win += 1;
-			}
-			
-		}
-		
-		if(win == 3){
-			printf("%d\n", i);
-			return true;
-		}
-	}
-	
-	return false;
-}
-
 
 int main()
 {
